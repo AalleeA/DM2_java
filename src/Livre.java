@@ -7,6 +7,10 @@ class Livre extends Document{
     this.auteur = auteur;
     this.nPages = nPages;
   }
+  
+  public String toString(){
+	return super.toString() + auteur + "Nb de pages : " + nPages;
+  }
 
   public String getAuteur(){
     return(this.auteur);
