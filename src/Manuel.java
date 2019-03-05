@@ -7,13 +7,13 @@ class Manuel extends livre{
   }
 
   public String toString(){
-	return  super.toString() + "Niveau : " + niveau;
+	return  super.toString() + "Niveau : " + niveau + " ";
   }
-  
+
   public int getNiveau(){
     return(this.niveau);
   }
-  
+
   public void setNiveau(int niveau){
     this.niveau = niveau;
   }

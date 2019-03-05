@@ -7,9 +7,9 @@ class Document{
     this.nEnregistrement = Numero;
     this.titre = title;
   }
-  
+
   public String toString(){
-		return titre + "N°" + nEnregistrement;
+		return titre + " N°" + nEnregistrement + " ";
   }
 
   public int getNenregistrement(){
