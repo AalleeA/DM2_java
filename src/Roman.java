@@ -1,7 +1,7 @@
 class Roman extends livre{
   private int prix;
 
-  public void roman(int nEnregistrement, String titre, String auteur, int nPages, int prix){
+  public roman(int nEnregistrement, String titre, String auteur, int nPages, int prix){
     super(nEnregistrement, titre, auteur, nPages);
     this.prix = prix;
   }

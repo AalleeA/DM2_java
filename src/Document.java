@@ -1,11 +1,9 @@
 class Document{
-  public static void main(String[] args){
-  }
 
   private int nEnregistrement;
   private String titre;
 
-  public void Document(int Numero,String title){
+  public Document(int Numero,String title){
     this.nEnregistrement = Numero;
     this.titre = title;
   }
@@ -14,7 +12,7 @@ class Document{
     return(this.nEnregistrement);
   }
   public String getTitle(){
-    return(this.title);
+    return(this.titre);
   }
   public void setNenregistrement(int numero){
     this.nEnregistrement = numero;
