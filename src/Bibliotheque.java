@@ -37,9 +37,17 @@ public class Bibliotheque{
   public void afficherAuteur(){
     for(Document doc:stock){
       if(doc instanceof Livre){
-        System.out.println(doc.toString());
+        System.out.println(((Livre)doc).getAuteur());
       }
 
+    }
+  }
+
+  public void ajouterLivre(List<Document> doclist){
+    for(Document doc:doclist){
+      if(doc instanceof Livre){
+        this.ajouter(doc);
+      }
     }
   }
 
