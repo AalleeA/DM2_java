@@ -2,7 +2,7 @@ public class Revue extends Document{
   private int annee;
   private int mois;
 
-  public revue(int nEnregistrement, String titre ,int annee, int mois){
+  public Revue(int nEnregistrement, String titre ,int annee, int mois){
     super(nEnregistrement, titre);
     this.annee = annee;
     this.mois = mois;

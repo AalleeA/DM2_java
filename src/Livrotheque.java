@@ -14,7 +14,12 @@ class Livrotheque extends Bibliotheque{
     }
     return(ret);
   }
-
+  
+  public void ajouterListe(List<Document> doclist){
+	for(Document doc:doclist){
+		this.ajouter(doc);
+	}
+  }
 
   public void afficherAuteur(){
     for(Document doc:stock){
